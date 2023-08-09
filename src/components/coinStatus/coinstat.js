@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
 function Coinstat({ singleCoin }) {
-  const reduceToThreeDigits = (value) => {
+  const reducetoThreeDigits = (value) => {
     if (value === undefined) {
       return '';
     }
@@ -27,7 +27,7 @@ function Coinstat({ singleCoin }) {
               {singleCoin.name}
             </h1>
             <h3>
-              {reduceToThreeDigits(singleCoin.marketCap)}
+              {reducetoThreeDigits(singleCoin.marketCap)}
             </h3>
             <p> supply</p>
           </div>
@@ -35,7 +35,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details even">
           <h3>Number Of Markets</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.numberOfMarkets)}</p>
+            <p>{reducetoThreeDigits(singleCoin.numberOfMarkets)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -43,7 +43,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details odd">
           <h3>Number Of Exchanges</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.numberOfExchanges)}</p>
+            <p>{reducetoThreeDigits(singleCoin.numberOfExchanges)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -51,7 +51,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details even">
           <h3>Number Of Marketcap</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.marketCap)}</p>
+            <p>{reducetoThreeDigits(singleCoin.marketCap)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -59,7 +59,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details odd">
           <h3>fully Diluted MarketCap</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.fullyDilutedMarketCap)}</p>
+            <p>{reducetoThreeDigits(singleCoin.fullyDilutedMarketCap)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -67,7 +67,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details even">
           <h3>Price</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.price)}</p>
+            <p>{reducetoThreeDigits(singleCoin.price)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -75,7 +75,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details odd">
           <h3> BTC Price</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.btcPrice)}</p>
+            <p>{reducetoThreeDigits(singleCoin.btcPrice)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -83,7 +83,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details even">
           <h3> PriceAt</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.priceAt)}</p>
+            <p>{reducetoThreeDigits(singleCoin.priceAt)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -91,7 +91,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details odd">
           <h3> Number Of Changes</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.change)}</p>
+            <p>{reducetoThreeDigits(singleCoin.change)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>
@@ -99,7 +99,7 @@ function Coinstat({ singleCoin }) {
         <div className="coin-details even">
           <h3> Number Of Rank</h3>
           <div className="coin-supply">
-            <p>{reduceToThreeDigits(singleCoin.rank)}</p>
+            <p>{reducetoThreeDigits(singleCoin.rank)}</p>
             <p>supply</p>
             <BsArrowRightCircle />
           </div>

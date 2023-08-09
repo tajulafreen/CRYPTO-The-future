@@ -14,7 +14,6 @@ function CoinStats() {
   }, [dispatch, coinId]);
 
   useEffect(() => {
-    // Dispatch an action to update the singleCoin value
     dispatch(setSingleCoin(/* new singleCoin value */));
   }, [dispatch]);
 

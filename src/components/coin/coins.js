@@ -16,11 +16,10 @@ function Coins() {
   }, [dispatch, coins.length]);
 
   useEffect(() => {
-    // Dispatch an action to update the singleCoin value
-    dispatch(setSingleCoin(/* new singleCoin value */));
+    dispatch(setSingleCoin(/* new singleCoin value * */));
   }, [dispatch]);
 
-  const handleSearch = (event) => {
+  const searchHandle = (event) => {
     dispatch(setSearch(event.target.value));
   };
 
@@ -48,7 +47,7 @@ function Coins() {
               </div>
             </div>
             <div className="input-container">
-              <input type="text" value={searchQuery} onChange={handleSearch} className="custom-input" placeholder="stats by crypto" />
+              <input type="text" value={searchQuery} onChange={searchHandle} className="custom-input" placeholder="stats by crypto" />
             </div>
             <div className="card-container">
               {filteredCoins.map((coin, index) => (

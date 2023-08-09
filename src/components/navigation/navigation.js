@@ -7,18 +7,18 @@ import { FcSettings } from 'react-icons/fc';
 
 const Navigation = () => {
   const { singleCoinChanged } = useSelector((state) => state.coins);
-  const message = singleCoinChanged ? 'cypto views' : ' crypto/coin supply';
-  const message2 = singleCoinChanged ? 2015 : '';
+  const Message = singleCoinChanged ? 'cypto views' : ' crypto/coin supply';
+  const Message2 = singleCoinChanged ? 2015 : '';
   return (
     <div className="navigation">
       <div className="nav-left">
         <Link to="/Coins" className="link">
           <FaLessThan className="less-than" />
-          {message2}
+          {Message2}
         </Link>
       </div>
       <div className="nav-center">
-        <p>{message}</p>
+        <p>{Message}</p>
       </div>
       <div className="nav-right">
         <div className="mic-set">

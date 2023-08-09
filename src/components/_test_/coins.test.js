@@ -10,13 +10,13 @@ const axiosMock = new MockAdapter(axios);
 
 const mockGetCoinsResponse = {
   data: {
-    coins: [{ id: 1, name: 'Coin 1' }, { id: 2, name: 'Coin 2' }],
+    coins: [{ id: 1, name: 'coin 1' }, { id: 2, name: 'coin 2' }],
   },
 };
 
 const mockFetchCoinResponse = {
   data: {
-    coin: { id: 1, name: 'Coin 1' },
+    coin: { id: 1, name: 'coin 1' },
   },
 };
 

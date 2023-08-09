@@ -5,12 +5,12 @@ import '../styles/coin.css';
 
 function Coin({ coin, index }) {
   let bgColor = '';
-  const variedIndices = [0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20];
-  const nonVariedIndices = [1, 2, 5, 6, 9, 10, 13, 14, 17, 18];
+  const variedindices = [0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20];
+  const nonVariedindices = [1, 2, 5, 6, 9, 10, 13, 14, 17, 18];
 
-  if (variedIndices.includes(index)) {
+  if (variedindices.includes(index)) {
     bgColor = 'odd';
-  } else if (nonVariedIndices.includes(index)) {
+  } else if (nonVariedindices.includes(index)) {
     bgColor = 'even';
   }
   const roundedPrice = Math.round(coin.price);

@@ -1,4 +1,3 @@
-
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
@@ -34,7 +33,6 @@ export const fetchCoin = createAsyncThunk('coins/fetchCoin',
   async (uuid, thunkAPI) => {
     try {
       const response = await axios.request(`https://coinranking1.p.rapidapi.com/coin/${uuid}`, option);
-      console.log(response);
       return response.data;
     } catch (error) {
       return thunkAPI.rejectWithValue('Something went wrong');
