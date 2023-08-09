@@ -7,7 +7,7 @@ import { FcSettings } from 'react-icons/fc';
 
 const Navigation = () => {
   const { singleCoinChanged } = useSelector((state) => state.coins);
-  const Message = singleCoinChanged ? 'cypto views' : ' crypto/coin supply';
+  const Message = singleCoinChanged ? 'Crypto views' : ' Crypto/coin supply';
   const Message2 = singleCoinChanged ? 2015 : '';
   return (
     <div className="navigation">
