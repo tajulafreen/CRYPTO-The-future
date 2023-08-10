@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://crypto-the-future.onrender.com/)
 - [video walkthrough Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,7 +87,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/tajulafreen/Crypto-the-Future.git
+  git clone https://github.com/tajulafreen/Crypto-The-future.git
 ```
 
 ### Install
@@ -138,7 +138,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tajulafreen/Crypto-the-Future/issues).
+Feel free to check the [issues page](https://github.com/tajulafreen/Crypto-The-future/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
