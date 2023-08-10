@@ -62,7 +62,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://crypto-the-future.onrender.com/)
-- [video walkthrough Link]()
+- [video walkthrough Link](https://drive.google.com/file/d/1mfqUjTdPszsbu7KamJt5zsxmoZujZuu9/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
